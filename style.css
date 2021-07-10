@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
     font-family: arial;
@@ -9,12 +13,35 @@ h1 {
     font-family: verdana
 }
 
-.maindiv {
+div.mainDiv {
     background-color: white;
     color: black;
-    width: 300px;
+    width: 480px;
     padding: 20px;
     border-radius: 25px;
-    box-align: center;
+    align: center;
     margin: auto;
+    position: relative;
+}
+
+div.formDiv {
+    width: 300px;
+    margin: 0 auto;
+    align: center;
+    position: relative;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    white-space: nowrap;
+}
+
+div.formInput {
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+div.formLine {
+    margin-bottom: 5px;
 }
