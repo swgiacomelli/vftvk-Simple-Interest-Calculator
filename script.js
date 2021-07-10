@@ -26,7 +26,7 @@ function compute() {
 // Update the rate output based on the slider position
 function updateRate() {
     var rateVal = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText = rateVal;
+    document.getElementById("rate_val").innerText = rateVal + "%";
 }
 
 // Validate that the principal value
